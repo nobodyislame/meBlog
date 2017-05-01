@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    background: #4ABDAC;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+}
+.navbar-default{
+    background: #FC4A1A;
+    border: none;
+}
+.navbar-default .navbar-collapse{
+    background: #FC4A1A;
+}
+.navbar{
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*To Center the nav links*/
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:link,
+.navbar-default .navbar-nav>li>a:visited{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    background: #F7B733;
+}
+.navbar-default .navbar-nav>li>a{
+    cursor: pointer;
+}
+#main{
+    margin-top: 90px;
+}
+#intro h1{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+#intro p{
+    margin-top:20px;
+    font-size: 18px;
+}
+#infosection{
+    margin-top: 40px;
+    padding-bottom: 20px;
+} 
+
+#readme{
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #F7B733;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 25px; 
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+#readme a:hover,
+#readme a:link,
+#readme a:visited,
+#readme a:active
+{
+    color: #fff;   
+}
+#infosection ul{
+    display: inline;
+    padding-left: 60px;
+}
+#infosection li{
+    display: inline-block;
+    background: #F7B733;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: 5px;
+}
+#infosection li a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+#infosection i{
+    padding-top: 7px;
+}
+
+#blog-heading h1{
+    display: inline;
+    border-bottom: 1px solid white
+}
+
+#blogsection{
+    margin-top: 15px;
+}
+
+#blog-wrapper{
+    padding: 10px;
+    background: #F7B733;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#blog-wrapper p{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+<div id="blog-wrapper">
+    <h3>{{blog.title}}</h3>
+    <p>{{blog.content | limitTo:580}} {{blog.content.length > 580 ? '&hellip;' : ''}}</p>
+</div>
