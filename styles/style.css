@@ -121,9 +121,43 @@ body{
 #blog-wrapper p{
     font-size: 16px;
 }
+.mybtn{
+    display: inline-block;
+    padding: 5px;
+    background: #4ABDAC;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 1px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
 
-
-
+.mybtn:first-child {
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.mybtn:first-child:hover{
+    background: #FC4A1A;
+}
+.mybtn:first-child i{
+    font-size: 15px;
+}
+#date{
+    margin-top:31px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.story{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 2px;
+    letter-spacing: 0.01em;
+}
 
 
 

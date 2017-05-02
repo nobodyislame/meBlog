@@ -1,13 +1,16 @@
 angular.module('app')
-    .directive('blogBox', function(){
+    .directive('blogBox',['$location', function($location){
         return{
             restrict:'E',
             templateUrl:'./blogs/blog.html',
             scope:{
-                blog : "="
+                blog : "=",
+                index: "="
             },
             link:function(scope, elems, attrs, controller){
-                
+                scope.view = function(index){
+                    $location.path('/story/'+index);
+                }
             }
         }
-})
+}])

@@ -1,4 +1,9 @@
 <div id="blog-wrapper">
     <h3>{{blog.title}}</h3>
     <p>{{blog.content | limitTo:580}} {{blog.content.length > 580 ? '&hellip;' : ''}}</p>
+    <div class="text-center">
+        <div class="mybtn" ng-click="view(index)"><i class="fa fa-eye" aria-hidden="true"></i>View</div>
+        <div class="mybtn">{{blog.likes+" Likes"}} {{blog.comments+" Comments"}}</div>
+        <div class="mybtn">{{"Posted on - "+blog.date}}</div>
+    </div>
 </div>
