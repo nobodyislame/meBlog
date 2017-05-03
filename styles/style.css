@@ -156,8 +156,136 @@ body{
     border: 1px solid white;
     padding: 15px;
     border-radius: 2px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.05em;
+    text-align: center;
 }
+.action-btn{
+    display: inline-block;
+    padding:10px;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    cursor: pointer;
+}
+form{
+    margin-top: 10px;
+}
+.txt-area{
+    background: #4ABDAC;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #fff;
+    outline: none;
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid #fff;
+    border-bottom: 5px solid #fff;
+    border-radius: 5px;
+    outline: none;
+}
+form span{
+    display: block;
+    margin-top: 5px;
+}
+#blog-form label{
+    margin-top: 15px;
+    font-size: 20px;
+    display: block;
+}
+
+#blog-form input[type="text"]{
+    background:#4ABDAC;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+#blog-form input[type="text"]:focus{
+    outline: none;
+}
+#blog-form textarea{
+    background:#4ABDAC;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border: 2px solid #fff;
+    font-size: 18px;
+}
+#blog-form textarea:focus{
+    outline: none;
+}
+#blog-form input[type="submit"]{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-top: 10px;
+    background:#4ABDAC;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+}
+#contact-form{
+    display: block;
+    font-size: 18px;
+}
+#contact-form label{
+    margin-top: 5px;
+}
+#contact-form input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    background: #4ABDAC;
+    display: block;
+    border: 2px solid #fff;
+}
+#contact-form input[type="email"]{
+    width: 50%;
+    padding: 10px;
+    background: #4ABDAC;
+    display: block;
+    border: 2px solid #fff;
+}
+#contact-form input[type="tel"]{
+    width: 50%;
+    padding: 10px;
+    background: #4ABDAC;
+    display: block;
+    border: 2px solid #fff;
+}
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form input[type="tel"]:focus{
+    outline: none;
+}
+
+#contact-form textarea{
+    width: 50%;
+    height: 80px;
+    padding: 10px;
+    display: block;
+    background: #4ABDAC;
+    border: 2px solid #fff;
+}
+#contact-form textarea:focus{
+    outline: none;
+}
+#contact-form input[type="submit"]{
+    margin-top: 8px;
+    padding: 5px;
+    font-size: 20px;
+    background: #4ABDAC;
+    border: 2px solid #fff;
+}
+
+
+
+
+
 
 
 

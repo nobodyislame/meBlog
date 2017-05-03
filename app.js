@@ -14,6 +14,14 @@ angular.module('app',['ngRoute'])
                 templateUrl : 'story/story.html',
                 controller : 'storyCtrl'
             })
+            .when('/new', {
+                templateUrl:'newpost/newpost.html',
+                controller: 'newpostCtrl'
+            })
+            .when('/contactme',{
+                templateUrl:'contactme/contactme.html',
+                controller:'contactmeCtrl'
+            })
             .otherwise({
                 redirectTo : '/home'
             });
